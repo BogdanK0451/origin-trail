@@ -1,6 +1,6 @@
 # Ethereum Transaction Crawler
 
-A web application that allows users to explore and visualize Ethereum blockchain transactions for any given wallet address. Built with Vue 3, TypeScript, and Vite for the frontend, with a backend service in Node (in another repo) that interfaces with Etherscan and Infura APIs.
+A web application that allows users to explore and visualize Ethereum blockchain transactions for any given wallet address. Built with Vue 3, TypeScript, and Vite for the frontend, with a backend service in Node that interfaces with Etherscan and Infura APIs.
 
 ## 🌟 Features
 
@@ -36,7 +36,7 @@ You can directly access the backend endpoints in your browser using the followin
 
 The application consists of two main components:
 
-### Frontend (This Repository)
+### Frontend 
 - Vue 3 with Composition API
 - TypeScript for type safety
 - Vuetify 3 for Material Design components
@@ -45,7 +45,7 @@ The application consists of two main components:
 - Vue I18n for internationalization
 - Axios for API communication
 
-### Backend (https://github.com/BogdanK0451/origin-trail-backend)
+### Backend
 - Interfaces with Etherscan and Infura APIs
 - Handles blockchain data fetching and processing
 - Provides RESTful API endpoints for the frontend
@@ -62,23 +62,23 @@ The application consists of two main components:
 
 1. Clone the repositories
 ```bash
-git clone https://github.com/BogdanK0451/origin-trail-frontend.git
-git clone https://github.com/BogdanK0451/origin-trail-backend.git
+git clone https://github.com/BogdanK0451/origin-trait.git
 ```
 
-2. Install dependencies in both
+2. Install dependencies and run frontend
 ```bash
-pnpm install
+   cd origin-trail/frontend
+   pnpm install
+   pnpm dev
 ```
 
-3. Start the development server (frontend)
+3. Install dependencies and run backend
 ```bash
-pnpm dev
+   cd origin-trail/backend
+   pnpm install
+   pnpm start
 ```
-4. Start the development server (backend)
-```bash
-pnpm start
-```
+
 
 
 ## 📱 Usage
