@@ -60,7 +60,7 @@ The application consists of two main components:
 
 ### Installation
 
-1. Clone the repositories
+1. Clone the repository
 ```bash
 git clone https://github.com/BogdanK0451/origin-trail.git
 ```
