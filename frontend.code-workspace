@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "frontend"
+		}
+	],
+	"settings": {
+		"i18n-ally.localesPaths": [
+			"src/i18n",
+			"src/i18n/locales"
+		],
+		"files.autoSave": "onFocusChange",
+		"i18n-ally.displayLanguage": "en",
+		"i18n-ally.keystyle": "nested"
+	}
+}
