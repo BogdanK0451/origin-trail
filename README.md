@@ -62,7 +62,7 @@ The application consists of two main components:
 
 1. Clone the repositories
 ```bash
-git clone https://github.com/BogdanK0451/origin-trait.git
+git clone https://github.com/BogdanK0451/origin-trail.git
 ```
 
 2. Install dependencies and run frontend
